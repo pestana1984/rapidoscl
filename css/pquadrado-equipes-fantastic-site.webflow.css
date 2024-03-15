@@ -2393,6 +2393,7 @@
 }
 
 .team-block-2 {
+  height: 800px;
   background-color: #fff;
   flex-direction: column;
   justify-content: center;
@@ -2416,8 +2417,10 @@
 
 .team-member-name-two-2 {
   color: #2f228d;
+  margin-top: 37px;
   margin-bottom: 12px;
   font-weight: 600;
+  position: relative;
 }
 
 .team-member-text-2 {
@@ -2654,7 +2657,17 @@
   align-items: center;
 }
 
-.bold-text-2, .bold-text-3, .bold-text-4, .bold-text-5, .bold-text-6, .bold-text-7 {
+.bold-text-2 {
+  color: #2f228d;
+  margin-top: 36px;
+}
+
+.bold-text-3 {
+  color: #2f228d;
+  margin-top: 42px;
+}
+
+.bold-text-4, .bold-text-5, .bold-text-6, .bold-text-7 {
   color: #2f228d;
 }
 
@@ -3206,6 +3219,16 @@
 
 .left-arrow-2 {
   height: 100px;
+}
+
+.mask-7 {
+  height: 850px;
+}
+
+.heading-83 {
+  color: #2f228d;
+  margin-top: 23px;
+  font-size: 24px;
 }
 
 @media screen and (min-width: 1920px) {
@@ -4733,6 +4756,7 @@
 
   .paragraph-22, .paragraph-23 {
     color: #fff;
+    text-align: left;
     margin-bottom: 40px;
     padding-left: 30px;
     padding-right: 30px;
@@ -5332,19 +5356,23 @@
 
   .team-block-2 {
     width: 300px;
-    height: 700px;
+    height: 1000px;
     text-align: center;
   }
 
   .team-block-info-2 {
+    height: 500px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 42px;
   }
 
   .team-member-name-two-2 {
     color: #2f228d;
     font-family: Montserrat, sans-serif;
+    position: relative;
+    top: -24px;
   }
 
   .team-member-text-2 {
@@ -5400,15 +5428,24 @@
     margin-top: -20px;
     margin-left: 10px;
     padding-right: 0;
+    position: relative;
+    top: 14px;
+    left: 20px;
   }
 
   .image-89 {
     margin-top: -20px;
     margin-right: 10px;
+    position: relative;
+    top: 15px;
+    left: -27px;
   }
 
   .image-90 {
     margin-top: -20px;
+    position: absolute;
+    top: 870.312px;
+    left: 124.5px;
   }
 
   .button-5 {
@@ -5458,6 +5495,11 @@
 
   .heading-69 {
     margin-top: 227px;
+  }
+
+  .bold-text-2 {
+    margin-top: 26px;
+    position: relative;
   }
 
   .cell-10 {
@@ -5719,6 +5761,27 @@
     width: 1000px;
     margin-top: -35px;
     position: absolute;
+  }
+
+  .html-embed-2 {
+    margin-top: 50px;
+    position: relative;
+    top: -4px;
+  }
+
+  .html-embed-3 {
+    margin-top: -12px;
+    position: relative;
+    top: 17px;
+  }
+
+  .mask-7 {
+    height: 1100px;
+  }
+
+  .heading-83 {
+    position: absolute;
+    top: 92.5px;
   }
 }
 
